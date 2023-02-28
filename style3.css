@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'Jost';
+    src: url(fonts/Jost-Light.ttf);
+}
+body{
+    background: #c7c5c5;
+    padding: 0;
+    margin: 0 auto;
+    width: 1920px;
+}
+h1{
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Jost';
+    color: #a16767;
+    margin-top: 70px;
+}
+.novosti{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 70px;
+ }
+p{
+font-size: 33px;
+font-family: 'Jost';
+line-height: 190%;
+margin-right: 80px;
+margin-left: 80px;
+}
+.f1{
+    display: flex;
+    margin-top: 70px;
+}
+.text1{
+    color: #a16767;
+    font-size: 35px;
+}
+.f2{
+    margin-top: 70px;
+    display: flex;
+}
+.f3{
+    margin-top: 70px;
+    display: flex;
+}
+.text2{
+    color: #ff0062;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.f4{
+    margin-top: 70px;
+    display: flex;
+}
+.text3{
+    color: #ff0062;
+    font-size: 36px;
+    text-align: center;
+}
+

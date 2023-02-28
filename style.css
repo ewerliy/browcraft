@@ -1,0 +1,126 @@
+/*шрифт*/
+@font-face{
+    font-family: 'Jost';
+    src: url(fonts/Jost-Light.ttf);
+}
+body{
+    background: #E0DADA;
+    padding: 0;
+    margin: 0 auto;
+    width: 1920px;
+}
+/*нумерованный список*/
+.item{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+    margin-top: 30px;
+    font-size: 36px;
+    font-family: 'Jost';
+    margin: 0 auto;
+}
+/*блоки*/
+.block1{
+ display: block;
+}
+/*заголовки*/
+h1{
+    font-family: 'Jost';
+    color: #E89696;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+h2{
+    font-family: 'Jost';
+    font-weight: bold;
+    color: black;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 20px; 
+}
+p{
+    font-family: 'Jost';
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px; 
+}
+/*кнопки*/
+.button1{
+    color: white;
+    background: #E89696;
+    margin: 0 auto;
+    font-size: 38px;
+    display: flex;
+    font-family: 'Jost';
+    padding-top: 40px;
+    padding-left: 120px;
+    width: 460px;
+    height: 120px;
+    border: none;
+    margin-bottom: 80px;
+}
+.post1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin: 0 auto;
+    gap: 50px;
+}
+.block4{
+    display: flex;
+    justify-content: center;
+}
+/*кнопки*/
+.button2{
+    color: white;
+    background: #E89696;
+    margin: 0 auto;
+    font-size: 35px;
+    display: flex;
+    font-family: 'Jost';
+    padding-top: 40px;
+    padding-left: 80px;
+    width: 460px;
+    height: 120px;
+    border: none;
+    margin-bottom: 80px;
+ }
+ /*подвал*/
+ footer{
+    background: #C8C2C2;
+    display: flex;
+}
+.links{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 500px;
+}
+.zag{
+    font-size: 30px;
+}
+ .text{
+    font-size: 32px;
+}
+.contacts{
+    width: 500px;
+    margin-left: 70px;
+}
+.post2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+ 
